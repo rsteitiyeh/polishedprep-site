@@ -2,7 +2,10 @@
 title: "Cosmetology State Board California Practice Exam: What the CA Test Covers"
 description: "Cosmetology State Board California Practice Exam: What the CA Test Covers"
 keyword: "california cosmetology practice exam"
-publishDate: 2026-07-12
+publishDate: 2026-07-13
+updatedDate: 2026-07-13
+author: "The PassCosmo Team"
+draft: false
 ---
 
 Cosmetology State Board California Practice Exam: What the CA Test Covers
@@ -36,7 +39,7 @@ What to expect on test day
 
 You'll test on a computer at a PSI center after the board approves your application and PSI sends scheduling instructions. The PSI candidate information bulletin linked from barbercosmo.ca.gov lists the current question count, time allowance, content outline, and score reporting rules; those specifics change periodically, so read the current bulletin rather than a forum post from two years ago. You'll get your result at the center, and failed attempts require a new fee and rescheduling wait.
 
-![](/media/27b0b78adb60d91321ff41e8c019dd5871f491d9.png)
+![](media/27b0b78adb60d91321ff41e8c019dd5871f491d9.png)
 
 *Approximate content emphasis on the California written exam; the PSI bulletin's official outline governs.*
 
