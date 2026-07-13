@@ -1,0 +1,342 @@
+---
+/**
+ * PassCosmo landing - flattened from the approved design
+ * (08_PassCosmo_Exam_Landing / PassCosmo Landing.dc.html).
+ * Quiz section mounts the shared Tool engine (Quiz.astro) with a
+ * PassCosmo rose/cream skin below (matches .quiz / .qz- classes).
+ */
+import site from '../../site.config.json';
+import Base from '../layouts/Base.astro';
+import Tool from './Tool.astro';
+const ls = site.lemonsqueezy.checkoutUrl;
+---
+<Base
+  title="Free Cosmetology Practice Test - Pass Your State Board | PassCosmo"
+  description="Free 50-question cosmetology practice test aligned to the PSI written exam and Milady Standard Cosmetology. State-specific prep for Michigan, Wisconsin, Nevada, Nebraska and 40+ more."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        { '@type': 'Question', name: 'How many questions is the PSI written exam?', acceptedAnswer: { '@type': 'Answer', text: "In most states the PSI cosmetology written exam is about 100 scored multiple-choice questions, and some states add 10-25 unscored pretest questions. Your state's PSI candidate information bulletin lists the exact count and time limit." } },
+        { '@type': 'Question', name: 'What score do I need to pass?', acceptedAnswer: { '@type': 'Answer', text: "Most states set the passing score between 70% and 75%. Your state's candidate bulletin lists the exact cut score, and the PassCosmo study guide summarizes it for every state we cover." } },
+        { '@type': 'Question', name: "What's on the practical exam?", acceptedAnswer: { '@type': 'Answer', text: 'Typically: workstation setup and infection control, a haircut, chemical services performed as mock applications, and thermal or wet styling - all on a mannequin, all timed. Required services and kit contents vary by state, so we keep a checklist per state.' } },
+        { '@type': 'Question', name: 'Are these questions the real exam questions?', acceptedAnswer: { '@type': 'Answer', text: 'No - and nobody can legally sell you real PSI questions. PassCosmo questions are original practice questions written to the same Milady chapters, question formats, and state rules the real exam draws from.' } },
+        { '@type': 'Question', name: 'Which states do you cover?', acceptedAnswer: { '@type': 'Answer', text: 'The written-exam practice content applies nationwide because most states test through PSI on Milady-aligned material. State-specific law summaries and practical checklists cover Michigan, Wisconsin, Nevada, Nebraska, and 40+ other states.' } },
+        { '@type': 'Question', name: 'What if I fail anyway?', acceptedAnswer: { '@type': 'Answer', text: 'If you bought the study guide, email your score report within 90 days and we refund the full $19. Your score report also breaks down your weak domains, so your retake plan targets exactly what cost you points.' } }
+      ]
+    })} />
+  </Fragment>
+
+  <header class="pp-nav">
+    <a class="brand" href="#top">Polished<b>Prep</b></a>
+    <nav aria-label="Main navigation">
+      <a href="#quiz">Practice Tests</a><a href="#guide">Study Guide</a><a href="#states">By State</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn sm" href="#hero-form">Free Practice Test</a>
+  </header>
+
+  <main id="top">
+    <section id="hero" class="hero">
+      <div class="blob blob-a" aria-hidden="true"></div>
+      <div class="blob blob-b" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="kicker"><span></span><p>State-board prep, minus the panic</p></div>
+        <h1>Pass Your Cosmetology State Board &mdash; <em>The First Time.</em></h1>
+        <p class="lede">The PSI written exam pulls from the same Milady chapters your program raced through &mdash; and your state adds its own rules on top. PassCosmo practice tests match how the exam actually asks, state by state: Michigan, Wisconsin, Nevada, Nebraska, and 40+ others.</p>
+        <div id="hero-form" class="form-wrap">
+          <form class="email" data-subscribe method="post">
+            <label class="sr" for="hero-email">Email address</label>
+            <input id="hero-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+            <button type="submit">Send Me the Free Practice Test</button>
+          </form>
+          <p class="micro">Free 50-question practice exam. No spam, unsubscribe anytime.</p>
+        </div>
+      </div>
+      <div class="marquee-wrap" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Michigan &middot; Wisconsin &middot; Nevada &middot; Nebraska &middot; Ohio &middot; Texas &middot; Florida &middot; Georgia &middot; Arizona &middot; Illinois &middot; Pennsylvania &middot; North Carolina &middot; Tennessee &middot; Missouri &middot; Indiana &middot; Colorado &middot; </span>
+          <span>Michigan &middot; Wisconsin &middot; Nevada &middot; Nebraska &middot; Ohio &middot; Texas &middot; Florida &middot; Georgia &middot; Arizona &middot; Illinois &middot; Pennsylvania &middot; North Carolina &middot; Tennessee &middot; Missouri &middot; Indiana &middot; Colorado &middot; </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="states" class="section proof">
+      <div class="head"><p class="eyebrow">01 &mdash; Built on what the exam actually tests</p><span class="rule"></span></div>
+      <div class="rings">
+        <div class="ring"><strong>1,200+</strong><p>practice questions, written the way PSI asks them</p></div>
+        <div class="ring"><strong>50</strong><p>states covered, with state-law summaries</p></div>
+        <div class="ring"><strong>32</strong><p>Milady chapters, mapped and weighted like the test</p></div>
+      </div>
+      <div class="quotes">
+        <figure><span class="tag">Example quote</span><blockquote>&ldquo;The infection control questions were almost exactly what I saw on my Michigan written exam.&rdquo;</blockquote><figcaption>Written exam &middot; Michigan</figcaption></figure>
+        <figure><span class="tag">Example quote</span><blockquote>&ldquo;I failed my first attempt studying all 32 chapters equally. The weighted review got me through round two at 84%.&rdquo;</blockquote><figcaption>Written exam retake &middot; Wisconsin</figcaption></figure>
+        <figure><span class="tag">Example quote</span><blockquote>&ldquo;The kit checklist saved my practical &mdash; I'd have walked in without neck strips and a second set of gloves.&rdquo;</blockquote><figcaption>Practical exam &middot; Nevada</figcaption></figure>
+      </div>
+      <p class="fine">Illustrative quotes for now &mdash; we'll swap in verified student reviews as they come in.</p>
+    </section>
+
+    <section id="problem" class="section problem">
+      <div class="problem-copy">
+        <p class="eyebrow">02 &mdash; The real cost of a retake</p>
+        <h2>Failing costs more than pride.</h2>
+        <p>Most students don't fail because they didn't study. They fail because they studied the <em>wrong things</em> &mdash; and walked into the testing center anxious about it.</p>
+        <p>Every retake runs $50&ndash;$150, and rebooking with PSI can mean two to six weeks of waiting &mdash; weeks your classmates spend behind the chair, building clientele, while your license sits on hold.</p>
+        <p>Here's the trap: Milady is 32 chapters, but the written exam isn't spread evenly across them. Sanitation, infection control, and safety carry the heaviest weight. Study every chapter equally and you're over-prepping the easy stuff &mdash; and under-prepping what actually decides your score.</p>
+      </div>
+      <div class="problem-stats">
+        <div class="stat"><span>$150</span><p>per retake attempt, out of your pocket</p></div>
+        <div class="stat"><span>6 wks</span><p>of waiting to rebook and retest with PSI</p></div>
+        <div class="stat"><span>32</span><p>Milady chapters &mdash; but the exam doesn't weight them equally</p></div>
+      </div>
+    </section>
+
+    <section id="cramsheet" class="section cramsheet">
+      <div class="head"><p class="eyebrow">03 &mdash; Free download</p><span class="rule"></span></div>
+      <div class="cram-grid">
+        <div class="cram-copy">
+          <h2>The State Board <em>Cram Sheet</em></h2>
+          <p>One free PDF covering the topics students miss most &mdash; the ones that quietly decide whether you pass. Print it, tape it to your mirror, read it in line at the testing center.</p>
+          <form class="email" data-subscribe method="post">
+            <label class="sr" for="magnet-email">Email address</label>
+            <input id="magnet-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+            <button type="submit">Email Me the Cram Sheet</button>
+          </form>
+          <p class="micro">Free PDF, straight to your inbox. Unsubscribe anytime.</p>
+        </div>
+        <div class="cram-card">
+          <p class="cram-label">Inside the cram sheet</p>
+          <div class="cram-item"><strong>Decontamination vs. disinfection vs. sterilization</strong> &mdash; the three-way distinction the exam loves to test</div>
+          <div class="cram-item"><strong>EPA-registered disinfectants</strong> &mdash; contact times, mixing rules, and when the jar gets dumped</div>
+          <div class="cram-item"><strong>Hair structure &amp; chemistry</strong> &mdash; cortex, cuticle, pH scale, and bond basics in plain English</div>
+          <div class="cram-item"><strong>Electricity &amp; light therapy basics</strong> &mdash; currents, safety devices, and modalities, minus the physics headache</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="guide" class="section offer">
+      <div class="offer-copy">
+        <p class="eyebrow light">04 &mdash; The Complete PassCosmo Study Guide</p>
+        <h2>Everything on the test. <em>Nothing that isn't.</em></h2>
+        <p>One PDF, organized the way the exam is weighted &mdash; so the night before the test you're reviewing what matters, not flipping through 1,000 pages hoping something sticks.</p>
+        <div class="price-row"><span class="price">$19</span><span class="price-note">one-time &middot; instant download &middot; free updates</span></div>
+        <a class="btn" href={ls}>Get the Study Guide &mdash; $19</a>
+        <p class="guarantee">Take your written exam. If you don't pass, email your score report within 90 days and we refund the full $19 &mdash; no forms, no hard feelings. You studied; the risk is ours.</p>
+      </div>
+      <div class="offer-card">
+        <p class="offer-label">What's inside</p>
+        <div class="offer-item"><strong>Chapter-by-chapter Milady review</strong> &mdash; weighted the way the exam weights it</div>
+        <div class="offer-item"><strong>600+ practice questions</strong> with plain-English explanations for every answer</div>
+        <div class="offer-item"><strong>State-specific law summaries</strong> &mdash; Michigan, Wisconsin, Nevada, Nebraska + 40 more</div>
+        <div class="offer-item"><strong>Practical-exam kit checklists</strong> &mdash; setup order, timing sheets, and what proctors dock you for</div>
+        <div class="offer-note">Covers both the written <em>and</em> the practical &mdash; one purchase, the whole exam.</div>
+      </div>
+    </section>
+
+    <section id="quiz" class="section quiz-wrap">
+      <div class="quiz-copy">
+        <p class="eyebrow">05 &mdash; Try it right now</p>
+        <h2>Five questions, <em>zero stakes.</em></h2>
+        <p>This is exactly how the full product works: pick a category, answer, and get a plain-English explanation &mdash; right or wrong. No login, no timer, no judgment.</p>
+      </div>
+      <Tool />
+    </section>
+
+    <section id="author" class="section byline">
+      <div class="avatar">{'{{AUTHOR_PHOTO}}'}</div>
+      <div>
+        <p class="eyebrow">06 &mdash; Who writes this</p>
+        <p class="byline-name">PassCosmo is written by <em>{site.author.name}</em>.</p>
+        <p>{site.author.bio}</p>
+        <p>Every question is checked against the current Milady edition and each state's latest candidate bulletin. When a state changes its rules, the guide gets updated &mdash; and you get the update free. No ghostwriters, no recycled question dumps.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="head"><p class="eyebrow">07 &mdash; Straight answers</p><h2>Questions students actually ask</h2></div>
+      <div class="faq-list">
+        <details open><summary>How many questions is the PSI written exam?<span class="fx">+</span></summary><p>In most states, about 100 scored multiple-choice questions &mdash; and some states add 10&ndash;25 unscored pretest questions mixed in, so don't panic if the count looks higher. Your state's PSI candidate information bulletin lists the exact number and time limit; we link it inside your state module.</p></details>
+        <details><summary>What score do I need to pass?<span class="fx">+</span></summary><p>Most states set the cut score between 70% and 75%. That means on a 100-question exam you can miss 25&ndash;30 questions and still pass &mdash; which is why studying the heavily weighted topics first matters more than memorizing everything. The study guide lists each state's exact passing score.</p></details>
+        <details><summary>What's on the practical exam?<span class="fx">+</span></summary><p>Typically: workstation setup and infection control, a haircut, chemical services performed as mock applications, and thermal or wet styling &mdash; all on a mannequin, all timed, with proctors watching your sanitation habits the whole way. Required services and kit contents vary by state, so we keep a checklist for each.</p></details>
+        <details><summary>Are these questions the real exam questions?<span class="fx">+</span></summary><p>No &mdash; and be wary of anyone who claims otherwise. Selling actual PSI exam content is illegal and can get licenses revoked. PassCosmo questions are original practice questions written to the same Milady topics, question formats, and state rules the real exam draws from. Train on the material, not a leaked answer key.</p></details>
+        <details><summary>Which states do you cover?<span class="fx">+</span></summary><p>The written-exam practice content applies nationwide, because most states test through PSI on Milady-aligned material. On top of that, state-specific law summaries and practical checklists cover Michigan, Wisconsin, Nevada, Nebraska, and 40+ other states. If yours is missing, email us &mdash; state modules are added by request.</p></details>
+        <details><summary>What if I fail anyway?<span class="fx">+</span></summary><p>First: breathe. It happens, and it's fixable. If you bought the study guide, email your score report within 90 days and we refund the full $19. Then use that same score report &mdash; it breaks down your weak domains &mdash; and we'll point you at exactly which chapters to drill before you rebook.</p></details>
+      </div>
+    </section>
+    <div class="ad">Advertisement</div>
+
+    <section id="cta" class="section final">
+      <h2>Your license is one good <em>study plan</em> away.</h2>
+      <p>Start with the free 50-question practice exam. If it feels like the real thing, you'll know exactly what to do next.</p>
+      <form class="email center" data-subscribe method="post">
+        <label class="sr" for="cta-email">Email address</label>
+        <input id="cta-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+        <button type="submit">Send Me the Free Practice Test</button>
+      </form>
+      <p class="micro">Free 50-question practice exam. No spam, unsubscribe anytime.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-top">
+      <div>
+        <a class="brand" href="#top">Polished<b>Prep</b></a>
+        <p>Exam prep for cosmetology students who'd rather pass once and get behind the chair.</p>
+      </div>
+      <nav><a href="#quiz">Practice Tests</a><a href="#guide">Study Guide</a><a href="#states">By State</a><a href="#faq">FAQ</a></nav>
+    </div>
+    <div class="foot-bottom">
+      <p>&copy; 2026 {site.legalEntity} &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></p>
+      <p>PassCosmo is not affiliated with PSI, Milady, or any state licensing board.</p>
+    </div>
+  </footer>
+</Base>
+
+<style is:global>
+  :root{--bg:#FBF7F4;--ink:#161216;--rose:#8F3D4C;--rose-dk:#772F3F;--blush:#F6E3E1;--blush-lt:#F9EDEC;--sage:#44684E;--sage-lt:#F0F4EF;--card:#FFFDFB}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Jost,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--rose);text-decoration:none}
+  h1,h2,.byline-name,.price,.brand,.qz-question{font-family:Fraunces,Georgia,serif}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+  .pp-nav{position:sticky;top:0;z-index:50;background:rgba(251,247,244,.86);backdrop-filter:blur(14px);border-bottom:1px solid rgba(22,18,22,.08);display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px clamp(20px,5vw,48px);max-width:1200px;margin:0 auto;flex-wrap:wrap}
+  .brand{font-size:22px;font-weight:600;color:var(--ink)}.brand b{font-weight:400;font-style:italic;color:var(--rose)}
+  .pp-nav nav{display:flex;gap:clamp(16px,2.6vw,34px);flex-wrap:wrap}
+  .pp-nav nav a{font-size:14.5px;font-weight:500;color:var(--ink)}
+  .btn,.email button{display:inline-flex;align-items:center;justify-content:center;border:none;border-radius:999px;padding:15px 28px;background:var(--rose);color:var(--bg);font-size:15px;font-weight:500;letter-spacing:.03em;cursor:pointer;transition:background .18s ease,transform .18s ease,box-shadow .18s ease}
+  .btn:hover,.email button:hover{background:var(--rose-dk);transform:translateY(-2px);box-shadow:0 12px 28px rgba(143,61,76,.28)}
+  .btn.sm{padding:9px 18px;font-size:13.5px}
+  .hero{position:relative;overflow:clip;max-width:1200px;margin:0 auto}
+  .blob{position:absolute;border-radius:50%;pointer-events:none}
+  .blob-a{top:-180px;right:-160px;width:640px;height:640px;background:radial-gradient(closest-side,rgba(238,197,191,.65),rgba(238,197,191,0))}
+  .blob-b{bottom:-120px;left:-200px;width:520px;height:520px;background:radial-gradient(closest-side,rgba(214,177,183,.4),rgba(214,177,183,0))}
+  .hero-inner{position:relative;padding:clamp(72px,10vw,136px) clamp(20px,5vw,48px) clamp(56px,7vw,96px)}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:clamp(24px,3.5vw,40px)}
+  .kicker span{width:44px;height:1px;background:var(--rose)}
+  .kicker p{margin:0;font-size:12px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--rose)}
+  .hero h1{margin:0 0 clamp(22px,3vw,32px);font-weight:500;font-size:clamp(44px,7.4vw,94px);line-height:1.02;letter-spacing:-0.018em;max-width:15ch}
+  .hero h1 em{font-style:italic;font-weight:400;color:var(--rose)}
+  .lede{margin:0 0 clamp(28px,4vw,40px);font-size:clamp(16.5px,1.6vw,19px);line-height:1.65;color:rgba(22,18,22,.76);max-width:56ch}
+  .form-wrap{max-width:600px}
+  .email{display:flex;flex-wrap:wrap;gap:12px}
+  .email.center{justify-content:center}
+  .email input{flex:1 1 260px;min-width:0;padding:15px 22px;border-radius:999px;border:1px solid rgba(22,18,22,.2);background:var(--card);color:var(--ink);font-size:16px;outline:none}
+  .email input:focus{border-color:var(--rose);box-shadow:0 0 0 3px rgba(143,61,76,.14)}
+  .micro{margin:14px 0 0;font-size:13.5px;color:rgba(22,18,22,.55)}
+  .marquee-wrap{border-top:1px solid rgba(22,18,22,.12);border-bottom:1px solid rgba(22,18,22,.12);overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,black 12%,black 88%,transparent);mask-image:linear-gradient(90deg,transparent,black 12%,black 88%,transparent)}
+  .marquee-track{display:flex;white-space:nowrap;width:max-content;animation:pp-marquee 60s linear infinite}
+  .marquee-track span{display:inline-block;padding:16px 0 16px 32px;font-size:13px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:rgba(22,18,22,.5)}
+  @keyframes pp-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .section{max-width:1200px;margin:0 auto;padding:clamp(72px,9vw,120px) clamp(20px,5vw,48px)}
+  .eyebrow{margin:0;font-size:12px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--rose)}
+  .eyebrow.light{color:#E9B7B1}
+  .head{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;margin-bottom:clamp(40px,6vw,64px)}
+  .head h2{margin:0}
+  .rule{flex:1;height:1px;background:rgba(22,18,22,.14);min-width:80px}
+  h2{margin:0 0 clamp(20px,3vw,28px);font-weight:500;font-size:clamp(34px,4.8vw,58px);line-height:1.06;letter-spacing:-0.015em}
+  h2 em{font-style:italic;font-weight:400;color:var(--rose)}
+  .rings{display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,56px);justify-content:space-between;margin-bottom:clamp(56px,7vw,88px)}
+  .ring{flex:1 1 240px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
+  .ring strong{font-family:Fraunces,Georgia,serif;font-size:44px;font-weight:500;color:var(--ink);border:2px solid var(--rose);border-radius:50%;width:120px;height:120px;display:grid;place-items:center}
+  .ring p{margin:0;font-size:15.5px;line-height:1.5;color:rgba(22,18,22,.72);max-width:24ch}
+  .quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+  .quotes figure{margin:0;display:flex;flex-direction:column;gap:16px;background:var(--blush);border-radius:20px;padding:28px 28px 24px}
+  .tag{align-self:flex-start;font-size:10.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--rose);border:1px solid rgba(143,61,76,.35);border-radius:999px;padding:4px 10px}
+  blockquote{margin:0;font-family:Fraunces,Georgia,serif;font-style:italic;font-size:19px;line-height:1.45;color:var(--ink)}
+  figcaption{font-size:13.5px;color:rgba(22,18,22,.6)}
+  .fine{margin:18px 0 0;font-size:12.5px;color:rgba(22,18,22,.5)}
+  .problem{background:var(--blush);max-width:none;display:flex;flex-wrap:wrap;gap:clamp(40px,6vw,88px)}
+  .problem>*{max-width:1200px}
+  .problem-copy{flex:1.3 1 380px;min-width:0}
+  .problem-copy p{margin:0 0 18px;font-size:17px;line-height:1.7;color:rgba(22,18,22,.78);max-width:54ch}
+  .problem-copy p em{font-style:italic}
+  .problem-stats{flex:1 1 280px;display:flex;flex-direction:column;justify-content:center;min-width:0}
+  .stat{padding:22px 0;border-top:1px solid rgba(22,18,22,.16);display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}
+  .stat:last-child{border-bottom:1px solid rgba(22,18,22,.16)}
+  .stat span{font-family:Fraunces,Georgia,serif;font-weight:400;font-style:italic;font-size:clamp(48px,5.5vw,72px);line-height:1;color:var(--rose);min-width:150px}
+  .stat p{margin:0;flex:1;font-size:15px;line-height:1.5;color:rgba(22,18,22,.7);min-width:16ch}
+  .cram-grid{display:flex;flex-wrap:wrap;gap:clamp(36px,5vw,72px);align-items:flex-start}
+  .cram-copy{flex:1 1 360px;min-width:0}
+  .cram-copy p{margin:0 0 26px;font-size:17px;line-height:1.7;color:rgba(22,18,22,.78);max-width:52ch}
+  .cram-card{flex:1 1 340px;min-width:0;background:var(--card);border:1px solid rgba(22,18,22,.12);border-radius:24px;padding:clamp(26px,3.5vw,38px);display:flex;flex-direction:column;gap:22px;box-shadow:0 24px 60px rgba(143,61,76,.08)}
+  .cram-label,.offer-label{margin:0;font-size:11.5px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:rgba(22,18,22,.5);padding-bottom:18px;border-bottom:1px solid rgba(22,18,22,.12)}
+  .cram-item,.offer-item{font-size:16px;line-height:1.55;color:rgba(22,18,22,.8)}
+  .cram-item strong,.offer-item strong{font-weight:500;color:var(--ink)}
+  .offer{background:var(--ink);color:var(--bg);display:flex;flex-wrap:wrap;gap:clamp(40px,6vw,88px);align-items:center;max-width:none;border-radius:0}
+  .offer>*{max-width:1200px}
+  .offer-copy{flex:1.2 1 360px;min-width:0}
+  .offer-copy p{margin:0 0 30px;font-size:17px;line-height:1.7;color:rgba(251,247,244,.72);max-width:52ch}
+  .offer-copy p em{font-style:italic;font-weight:400;color:#E9B7B1}
+  .offer h2{color:var(--bg)}
+  .price-row{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:30px}
+  .price{font-style:italic;font-weight:400;font-size:clamp(60px,7vw,92px);line-height:1;color:var(--bg)}
+  .price-note{font-size:14.5px;letter-spacing:.04em;color:rgba(251,247,244,.6)}
+  .guarantee{margin:22px 0 0;font-size:14.5px;line-height:1.6;color:rgba(251,247,244,.6);max-width:48ch}
+  .offer-card{flex:1 1 320px;min-width:0;background:var(--bg);color:var(--ink);border-radius:24px;padding:clamp(26px,3.5vw,38px);display:flex;flex-direction:column;gap:20px;box-shadow:0 32px 80px rgba(0,0,0,.35)}
+  .offer-note{display:flex;align-items:center;gap:12px;margin-top:6px;padding:14px 18px;background:var(--blush);border-radius:14px;font-size:13.5px;line-height:1.5;color:rgba(22,18,22,.7)}
+  .offer-note em{font-style:italic}
+  .quiz-wrap{display:flex;flex-wrap:wrap;gap:clamp(36px,5vw,72px)}
+  .quiz-copy{flex:1 1 320px;min-width:0}
+  .quiz-copy p{margin:0 0 28px;font-size:17px;line-height:1.7;color:rgba(22,18,22,.78);max-width:46ch}
+  .quiz-copy p em{font-style:italic;font-weight:400;color:var(--rose)}
+  .quiz-wrap :global(#tool-quiz){flex:1.3 1 400px;min-width:0}
+  .byline{display:grid;grid-template-columns:150px 1fr;gap:34px;align-items:center;background:var(--blush)}
+  .avatar{width:120px;height:120px;display:grid;place-items:center;border-radius:50%;background:var(--card);border:1px solid rgba(143,61,76,.3);font-size:10px;color:rgba(22,18,22,.5)}
+  .byline-name{margin:0 0 14px;font-size:clamp(21px,2.4vw,26px);line-height:1.4;font-weight:400}
+  .byline-name em{font-style:italic}
+  .byline p{margin:0 0 14px;font-size:16px;line-height:1.7;color:rgba(22,18,22,.72);max-width:52ch}
+  .faq{max-width:860px}
+  .faq-list{display:flex;flex-direction:column}
+  .faq details{border-top:1px solid rgba(22,18,22,.14)}
+  .faq details:last-child{border-bottom:1px solid rgba(22,18,22,.14)}
+  .faq summary{display:flex;align-items:center;justify-content:space-between;gap:18px;list-style:none;cursor:pointer;padding:22px 4px;font-family:Fraunces,Georgia,serif;font-size:clamp(18px,2vw,21px);font-weight:500;line-height:1.35}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq .fx{flex:none;font-size:22px;font-weight:300;line-height:1;color:var(--rose);transition:transform .25s ease}
+  .faq details[open] .fx{transform:rotate(45deg)}
+  .faq details p{margin:0;padding:0 4px 24px;font-size:16px;line-height:1.7;color:rgba(22,18,22,.75);max-width:64ch}
+  .ad{max-width:860px;margin:0 auto clamp(56px,7vw,80px);padding:0 clamp(20px,5vw,48px)}
+  .ad::before{content:"Advertisement";display:block;text-align:center;font-size:10px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:rgba(22,18,22,.4);margin-bottom:8px}
+  .final{background:var(--blush);max-width:none;text-align:center}
+  .final>*{max-width:760px;margin-left:auto;margin-right:auto}
+  .final h2{max-width:none}
+  .final p{font-size:17px;line-height:1.65;color:rgba(22,18,22,.75);max-width:46ch;margin-left:auto;margin-right:auto}
+  .final .email{max-width:560px;margin:0 auto;justify-content:center}
+  footer{background:var(--ink);color:rgba(251,247,244,.75)}
+  .foot-top{max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,72px) clamp(20px,5vw,48px) 36px;display:flex;flex-wrap:wrap;gap:clamp(28px,5vw,64px);justify-content:space-between;align-items:flex-start;border-bottom:1px solid rgba(251,247,244,.14)}
+  .foot-top .brand{color:var(--bg)}
+  .foot-top p{margin:10px 0 0;font-size:14px;line-height:1.6;color:rgba(251,247,244,.55);max-width:34ch}
+  .foot-top nav{display:flex;gap:clamp(24px,4vw,48px);flex-wrap:wrap}
+  .foot-top nav a{font-size:14px;color:rgba(251,247,244,.75)}
+  .foot-bottom{max-width:1200px;margin:0 auto;padding:28px clamp(20px,5vw,48px) 40px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+  .foot-bottom p{margin:0;font-size:13px;color:rgba(251,247,244,.5)}
+  .foot-bottom a{color:rgba(251,247,244,.5)}
+
+  /* ---- PassCosmo skin for the shared Tool engine (.quiz / .qz-*) ---- */
+  .quiz{background:var(--card);border:1px solid rgba(22,18,22,.12);border-radius:24px;box-shadow:0 24px 60px rgba(143,61,76,.1);padding:clamp(24px,3.5vw,36px)}
+  .quiz-head h3{margin:0 0 8px;font-family:Fraunces,Georgia,serif;font-size:clamp(19px,2vw,23px);font-weight:500}
+  .quiz-sub{margin:0;font-size:15px;color:rgba(22,18,22,.7)}
+  .quiz-controls select{border-radius:14px;border:1px solid rgba(22,18,22,.2);background:var(--card);padding:12px 18px}
+  .quiz-controls select:focus{outline:none;border-color:var(--rose);box-shadow:0 0 0 3px rgba(143,61,76,.14)}
+  .quiz-mode button{border-radius:999px;border:1px solid rgba(22,18,22,.2);background:var(--blush-lt)}
+  .quiz-mode button.on{background:var(--rose);color:var(--bg);border-color:var(--rose)}
+  .qz-counter{color:rgba(22,18,22,.55);letter-spacing:.04em}
+  .qz-question{font-family:Fraunces,Georgia,serif;font-size:clamp(19px,2vw,23px);font-weight:500}
+  .qz-opt{border-radius:14px;border:1px solid rgba(22,18,22,.16);background:var(--card)}
+  .qz-opt:hover{border-color:var(--rose)}
+  .qz-opt.right{background:var(--sage-lt);border-color:var(--sage)}
+  .qz-opt.wrong{background:var(--blush-lt);border-color:var(--rose)}
+  .qz-explain{border-left:3px solid var(--rose);background:var(--blush-lt);border-radius:0 14px 14px 0}
+  .qz-bar{background:#F0E4DE}
+  .qz-bar span{background:var(--rose)}
+  #qz-next,#qz-restart{background:var(--ink);border-radius:999px}
+  #qz-next:hover,#qz-restart:hover{background:var(--rose)}
+  .flash-card{border-radius:16px;border:1px solid rgba(22,18,22,.16);background:var(--card)}
+  #flash-known{background:var(--sage-lt)}
+  #flash-learning{background:var(--blush-lt)}
+
+  @media(max-width:850px){.pp-nav nav{display:none}.problem,.offer,.quiz-wrap{flex-direction:column}.byline{grid-template-columns:110px 1fr}.avatar{width:100px;height:100px}}
+  @media(max-width:580px){.hero-inner{padding:65px 14px 80px}.hero h1{font-size:43px}.email{flex-direction:column}.section{padding-top:60px;padding-bottom:60px}.byline{grid-template-columns:1fr}.foot-bottom{flex-direction:column;align-items:flex-start}}
+  @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>

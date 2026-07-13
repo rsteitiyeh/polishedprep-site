@@ -1,0 +1,183 @@
+{
+  "kind": "quiz",
+  "heading": "Free Cosmetology Practice Test",
+  "sub": "24 written-exam style questions covering infection control, hair, skin & nails, and state-board practical protocol. Pick a category or run the full set.",
+  "mode": "quiz",
+  "passLabel": "most states set the cut score around 70-75%",
+  "categories": [
+    { "id": "infection-control", "label": "Infection Control" },
+    { "id": "hair", "label": "Hair" },
+    { "id": "skin-nails", "label": "Skin & Nails" },
+    { "id": "state-board-practical", "label": "State Board Practical" }
+  ],
+  "questions": [
+    {
+      "q": "What is the correct order of steps for disinfecting a non-porous salon tool after use?",
+      "options": ["Disinfect, then rinse and dry", "Clean off debris, then disinfect with an EPA-registered disinfectant", "Rinse in hot water only", "Wipe with a dry towel and store"],
+      "answer": 1,
+      "explanation": "Visible debris blocks disinfectant from reaching the surface, so tools must be cleaned first and then disinfected with an EPA-registered product for the full label contact time.",
+      "category": "infection-control"
+    },
+    {
+      "q": "Which level of pathogen control destroys all microbial life, including bacterial spores, and is generally not achievable with salon-grade chemical disinfectants?",
+      "options": ["Sanitation", "Disinfection", "Sterilization", "Decontamination"],
+      "answer": 2,
+      "explanation": "Sterilization kills every organism including spores and typically requires an autoclave or similar equipment - salon disinfectants disinfect but do not sterilize.",
+      "category": "infection-control"
+    },
+    {
+      "q": "A porous implement, such as a wood cuticle stick or an emery board, that has touched a client should be:",
+      "options": ["Disinfected and reused", "Sterilized in an autoclave", "Discarded after a single use", "Soaked overnight and rinsed"],
+      "answer": 2,
+      "explanation": "Porous items absorb product and body fluids and cannot be reliably disinfected, so single-use porous implements are discarded after one client.",
+      "category": "infection-control"
+    },
+    {
+      "q": "Disinfectants used on non-porous salon implements must be registered with which government agency?",
+      "options": ["FDA", "OSHA", "EPA", "CDC"],
+      "answer": 2,
+      "explanation": "The EPA registers disinfectant products and rates them as bactericidal, virucidal, and fungicidal; the FDA regulates cosmetics and drugs, and OSHA covers workplace safety.",
+      "category": "infection-control"
+    },
+    {
+      "q": "What is the purpose of a disinfectant's stated 'contact time' on its product label?",
+      "options": ["The time before the solution expires", "The minimum time a surface must stay wet with disinfectant to kill pathogens", "The maximum time an implement can soak before it corrodes", "The time needed to rinse the disinfectant off"],
+      "answer": 1,
+      "explanation": "Contact time is the minimum period the disinfectant must remain visibly wet on the surface for it to be effective; wiping it off early leaves the item under-disinfected.",
+      "category": "infection-control"
+    },
+    {
+      "q": "Universal Precautions in a salon setting mean that a practitioner should:",
+      "options": ["Only take extra care with clients who appear ill", "Treat all blood and body fluids as if they are potentially infectious", "Skip precautions for regular clients", "Only follow precautions during chemical services"],
+      "answer": 1,
+      "explanation": "Universal Precautions require treating every client's blood and body fluids as potentially infectious, since infection status often cannot be determined by appearance.",
+      "category": "infection-control"
+    },
+    {
+      "q": "Which layer of the hair shaft makes up the majority of the hair's weight and contains the pigment responsible for natural color?",
+      "options": ["Cuticle", "Medulla", "Cortex", "Follicle"],
+      "answer": 2,
+      "explanation": "The cortex is the middle layer and makes up most of the hair's structure and weight; it houses melanin (pigment) and gives hair its strength and elasticity.",
+      "category": "hair"
+    },
+    {
+      "q": "The outermost layer of the hair shaft, made of overlapping translucent scales, is called the:",
+      "options": ["Cortex", "Cuticle", "Medulla", "Papilla"],
+      "answer": 1,
+      "explanation": "The cuticle is the hair's protective outer layer of overlapping scales; when the scales lie flat, hair looks shinier and is more resistant to damage.",
+      "category": "hair"
+    },
+    {
+      "q": "On the pH scale used in cosmetology, a substance with a pH of 7 is considered:",
+      "options": ["Strongly acidic", "Neutral", "Strongly alkaline", "Off the usable scale"],
+      "answer": 1,
+      "explanation": "The pH scale runs 0-14; 7 is neutral, below 7 is acidic, and above 7 is alkaline. Hair and skin are naturally slightly acidic, around 4.5-5.5.",
+      "category": "hair"
+    },
+    {
+      "q": "A disulfide bond in the hair's cortex is best described as a:",
+      "options": ["Physical bond broken temporarily by water or heat", "Chemical bond broken by chemical services such as permanent waving", "Bond found only in the cuticle layer", "Bond that cannot be altered by any service"],
+      "answer": 1,
+      "explanation": "Disulfide bonds are strong chemical (sulfur) bonds within the cortex; they are broken and reformed by chemical processes like perms and relaxers, unlike hydrogen bonds, which are temporary and broken by water or heat.",
+      "category": "hair"
+    },
+    {
+      "q": "Which type of bond in hair is temporary and can be broken simply by wetting the hair or applying heat, such as with a blow-dryer or flat iron?",
+      "options": ["Disulfide bond", "Hydrogen bond", "Peptide bond", "Salt bond only"],
+      "answer": 1,
+      "explanation": "Hydrogen bonds are weak, temporary physical bonds broken by water or heat and reformed as the hair dries or cools - this is the basis of basic wet-set and thermal styling.",
+      "category": "hair"
+    },
+    {
+      "q": "A cosmetology client with a strand test showing poor elasticity and excessive stretching before breaking most likely has hair that is:",
+      "options": ["Overly resistant to chemical services", "Damaged or over-processed", "In perfect condition for a perm", "Unaffected by chemical services"],
+      "answer": 1,
+      "explanation": "Poor elasticity with excessive stretch-and-break typically signals weakened internal bonds from damage or over-processing, meaning further chemical services should proceed with caution or be avoided.",
+      "category": "hair"
+    },
+    {
+      "q": "The technical term for the outermost, dead layer of skin that provides a protective barrier is the:",
+      "options": ["Dermis", "Epidermis", "Subcutaneous layer", "Hypodermis"],
+      "answer": 1,
+      "explanation": "The epidermis is the outermost skin layer, made of stratified squamous epithelium; the dermis lies beneath it and contains blood vessels, nerves, and hair follicles.",
+      "category": "skin-nails"
+    },
+    {
+      "q": "In basic nail anatomy, the nail matrix is significant because it is:",
+      "options": ["The visible pink portion of the nail plate", "The area where new nail cells are generated", "The skin surrounding the nail plate", "The white tip at the free edge"],
+      "answer": 1,
+      "explanation": "The nail matrix, located under the proximal nail fold, is the site of nail cell production; damage to the matrix can permanently affect how the nail grows.",
+      "category": "skin-nails"
+    },
+    {
+      "q": "The thin band of tissue that seals the area between the nail plate and the skin, protecting the nail matrix from infection, is called the:",
+      "options": ["Lunula", "Free edge", "Eponychium (cuticle)", "Nail bed"],
+      "answer": 2,
+      "explanation": "The eponychium, commonly called the cuticle, is living tissue that seals the seam between the nail plate and skin; it should be pushed back gently rather than cut, since cutting it can open a path for infection.",
+      "category": "skin-nails"
+    },
+    {
+      "q": "A licensed practitioner notices a client has a nail infection with discoloration and separation of the nail plate. The correct professional response is to:",
+      "options": ["Proceed with the service using extra sanitizer", "Politely decline the service and refer the client to a physician", "File down the affected area before continuing", "Apply a heavier polish coat to cover it"],
+      "answer": 1,
+      "explanation": "Licensees are trained to recognize contraindications like infection and are required to decline service and refer clients to a medical professional rather than attempt to treat or mask a condition.",
+      "category": "skin-nails"
+    },
+    {
+      "q": "The half-moon shaped, lighter area at the base of the nail plate is known as the:",
+      "options": ["Lunula", "Perionychium", "Hyponychium", "Nail groove"],
+      "answer": 0,
+      "explanation": "The lunula is the visible whitish, crescent-shaped area at the base of the nail plate, formed where the nail matrix meets the nail bed.",
+      "category": "skin-nails"
+    },
+    {
+      "q": "Which type of high-frequency current used in some facial and scalp treatments is commonly nicknamed the 'violet ray'?",
+      "options": ["Galvanic current", "Faradic current", "Tesla (high-frequency) current", "Sinusoidal current"],
+      "answer": 2,
+      "explanation": "Tesla high-frequency current produces a violet glow in its electrode and is nicknamed the violet ray; galvanic, faradic, and sinusoidal are separate current types tested as a set on written exams.",
+      "category": "skin-nails"
+    },
+    {
+      "q": "Before a licensing practical exam, a candidate is generally expected to set up their station following a specific order that prioritizes:",
+      "options": ["Decoration and personal style first", "Infection control and sanitation setup before any tools are touched", "Whatever order feels fastest", "Client comfort items only"],
+      "answer": 1,
+      "explanation": "Practical exams score setup order heavily, and proctors typically expect infection-control and sanitation steps (clean surfaces, disinfected implements, proper draping) established before any service tool is picked up.",
+      "category": "state-board-practical"
+    },
+    {
+      "q": "During a practical licensing exam, why is proper draping of the client considered a scored step rather than a formality?",
+      "options": ["It has no bearing on scoring", "It protects the client's skin and clothing and demonstrates sanitary practice", "It is only required for chemical services", "It is optional if the client declines"],
+      "answer": 1,
+      "explanation": "Draping protects the client and signals that the candidate follows sanitary, professional procedure - proctors typically score it as part of the overall infection-control and professionalism criteria.",
+      "category": "state-board-practical"
+    },
+    {
+      "q": "On a practical exam, if a candidate drops an implement on the floor mid-service, the correct action is to:",
+      "options": ["Pick it up, wipe it on a towel, and continue", "Set it aside and disinfect or replace it before further use", "Ignore it and keep working to save time", "Ask the client to hand it back"],
+      "answer": 1,
+      "explanation": "A dropped implement is considered contaminated; proctors expect the candidate to set it aside and use a disinfected replacement rather than continue with a compromised tool.",
+      "category": "state-board-practical"
+    },
+    {
+      "q": "Timed portions of a practical licensing exam typically penalize a candidate most for:",
+      "options": ["Working too neatly", "Exceeding the allotted time or skipping required scored steps", "Talking with the client", "Using their own kit"],
+      "answer": 1,
+      "explanation": "Practical exams are scored against a checklist within a time limit; running over time or omitting a required scored step (like a sanitation step) typically costs the most points.",
+      "category": "state-board-practical"
+    },
+    {
+      "q": "Why do state licensing boards generally require candidates to bring their own labeled, sealed personal kit to a practical exam?",
+      "options": ["To make the exam more expensive", "To ensure implements are verifiably clean, sealed, and traceable to the candidate", "It is purely a tradition with no safety purpose", "So the testing site does not have to provide chairs"],
+      "answer": 1,
+      "explanation": "Requiring a sealed, labeled personal kit helps proctors verify implements haven't been contaminated before the exam and keeps sanitation traceable to one candidate.",
+      "category": "state-board-practical"
+    },
+    {
+      "q": "A candidate who fails to wash and sanitize their hands at the start of a scored practical service will most likely:",
+      "options": ["Receive no penalty since it happens off the clock", "Lose points or fail that scored step, since hand hygiene is a graded infection-control item", "Only be penalized on written exams, not practicals", "Be allowed to redo the step later without consequence"],
+      "answer": 1,
+      "explanation": "Hand washing/sanitizing before a service is typically a specific scored infection-control step on practical exam checklists, not a background formality.",
+      "category": "state-board-practical"
+    }
+  ]
+}
