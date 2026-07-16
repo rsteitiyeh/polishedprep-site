@@ -8,7 +8,6 @@
 import site from '../../site.config.json';
 import Base from '../layouts/Base.astro';
 import Tool from './Tool.astro';
-const ls = site.lemonsqueezy.checkoutUrl;
 ---
 <Base
   title="Free Cosmetology Practice Test - Pass Your State Board | PassCosmo"
@@ -24,7 +23,7 @@ const ls = site.lemonsqueezy.checkoutUrl;
         { '@type': 'Question', name: "What's on the practical exam?", acceptedAnswer: { '@type': 'Answer', text: 'Typically: workstation setup and infection control, a haircut, chemical services performed as mock applications, and thermal or wet styling - all on a mannequin, all timed. Required services and kit contents vary by state, so we keep a checklist per state.' } },
         { '@type': 'Question', name: 'Are these questions the real exam questions?', acceptedAnswer: { '@type': 'Answer', text: 'No - and nobody can legally sell you real PSI questions. PassCosmo questions are original practice questions written to the same Milady chapters, question formats, and state rules the real exam draws from.' } },
         { '@type': 'Question', name: 'Which states do you cover?', acceptedAnswer: { '@type': 'Answer', text: 'The written-exam practice content applies nationwide because most states test through PSI on Milady-aligned material. State-specific law summaries and practical checklists cover Michigan, Wisconsin, Nevada, Nebraska, and 40+ other states.' } },
-        { '@type': 'Question', name: 'What if I fail anyway?', acceptedAnswer: { '@type': 'Answer', text: 'If you bought the study guide, email your score report within 90 days and we refund the full $19. Your score report also breaks down your weak domains, so your retake plan targets exactly what cost you points.' } }
+        { '@type': 'Question', name: 'What if I fail anyway?', acceptedAnswer: { '@type': 'Answer', text: 'It happens, and it is fixable. Go back through your free score report, find your weak domains, and drill those chapters in the free study guide before you rebook — most retakes pass once the gaps get targeted instead of re-studying everything equally.' } }
       ]
     })} />
   </Fragment>
@@ -120,9 +119,12 @@ const ls = site.lemonsqueezy.checkoutUrl;
         <p class="eyebrow light">04 &mdash; The Complete PassCosmo Study Guide</p>
         <h2>Everything on the test. <em>Nothing that isn't.</em></h2>
         <p>One PDF, organized the way the exam is weighted &mdash; so the night before the test you're reviewing what matters, not flipping through 1,000 pages hoping something sticks.</p>
-        <div class="price-row"><span class="price">$19</span><span class="price-note">one-time &middot; instant download &middot; free updates</span></div>
-        <a class="btn" href={ls}>Get the Study Guide &mdash; $19</a>
-        <p class="guarantee">Take your written exam. If you don't pass, email your score report within 90 days and we refund the full $19 &mdash; no forms, no hard feelings. You studied; the risk is ours.</p>
+        <form class="email" data-subscribe method="post">
+          <label class="sr" for="guide-email">Email address</label>
+          <input id="guide-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+          <button type="submit">Send me the free study guide</button>
+        </form>
+        <p class="micro">Free PDF, straight to your inbox. Unsubscribe anytime.</p>
       </div>
       <div class="offer-card">
         <p class="offer-label">What's inside</p>
@@ -130,7 +132,7 @@ const ls = site.lemonsqueezy.checkoutUrl;
         <div class="offer-item"><strong>600+ practice questions</strong> with plain-English explanations for every answer</div>
         <div class="offer-item"><strong>State-specific law summaries</strong> &mdash; Michigan, Wisconsin, Nevada, Nebraska + 40 more</div>
         <div class="offer-item"><strong>Practical-exam kit checklists</strong> &mdash; setup order, timing sheets, and what proctors dock you for</div>
-        <div class="offer-note">Covers both the written <em>and</em> the practical &mdash; one purchase, the whole exam.</div>
+        <div class="offer-note">Covers both the written <em>and</em> the practical &mdash; one free download, the whole exam.</div>
       </div>
     </section>
 
@@ -144,12 +146,11 @@ const ls = site.lemonsqueezy.checkoutUrl;
     </section>
 
     <section id="author" class="section byline">
-      <div class="avatar">{'{{AUTHOR_PHOTO}}'}</div>
       <div>
         <p class="eyebrow">06 &mdash; Who writes this</p>
         <p class="byline-name">PassCosmo is written by <em>{site.author.name}</em>.</p>
         <p>{site.author.bio}</p>
-        <p>Every question is checked against the current Milady edition and each state's latest candidate bulletin. When a state changes its rules, the guide gets updated &mdash; and you get the update free. No ghostwriters, no recycled question dumps.</p>
+        <p>Every question is checked against the current Milady edition and each state's latest candidate bulletin. When a state changes its rules, the guide gets updated right away. No ghostwriters, no recycled question dumps.</p>
       </div>
     </section>
 
@@ -161,7 +162,7 @@ const ls = site.lemonsqueezy.checkoutUrl;
         <details><summary>What's on the practical exam?<span class="fx">+</span></summary><p>Typically: workstation setup and infection control, a haircut, chemical services performed as mock applications, and thermal or wet styling &mdash; all on a mannequin, all timed, with proctors watching your sanitation habits the whole way. Required services and kit contents vary by state, so we keep a checklist for each.</p></details>
         <details><summary>Are these questions the real exam questions?<span class="fx">+</span></summary><p>No &mdash; and be wary of anyone who claims otherwise. Selling actual PSI exam content is illegal and can get licenses revoked. PassCosmo questions are original practice questions written to the same Milady topics, question formats, and state rules the real exam draws from. Train on the material, not a leaked answer key.</p></details>
         <details><summary>Which states do you cover?<span class="fx">+</span></summary><p>The written-exam practice content applies nationwide, because most states test through PSI on Milady-aligned material. On top of that, state-specific law summaries and practical checklists cover Michigan, Wisconsin, Nevada, Nebraska, and 40+ other states. If yours is missing, email us &mdash; state modules are added by request.</p></details>
-        <details><summary>What if I fail anyway?<span class="fx">+</span></summary><p>First: breathe. It happens, and it's fixable. If you bought the study guide, email your score report within 90 days and we refund the full $19. Then use that same score report &mdash; it breaks down your weak domains &mdash; and we'll point you at exactly which chapters to drill before you rebook.</p></details>
+        <details><summary>What if I fail anyway?<span class="fx">+</span></summary><p>First: breathe. It happens, and it's fixable. Go back through your free score report &mdash; it breaks down your weak domains &mdash; and drill exactly those chapters in the free study guide before you rebook.</p></details>
       </div>
     </section>
     <div class="ad">Advertisement</div>
@@ -184,10 +185,10 @@ const ls = site.lemonsqueezy.checkoutUrl;
         <a class="brand" href="#top">Polished<b>Prep</b></a>
         <p>Exam prep for cosmetology students who'd rather pass once and get behind the chair.</p>
       </div>
-      <nav><a href="#quiz">Practice Tests</a><a href="#guide">Study Guide</a><a href="#states">By State</a><a href="#faq">FAQ</a></nav>
+      <nav><a href="#quiz">Practice Tests</a><a href="#guide">Study Guide</a><a href="#states">By State</a><a href="#faq">FAQ</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial/">Editorial</a></nav>
     </div>
     <div class="foot-bottom">
-      <p>&copy; 2026 {site.legalEntity} &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a></p>
+      <p>&copy; 2026 {site.BRAND} &middot; <a href="/privacy/">Privacy</a> &middot; <a href="/terms/">Terms</a> &middot; <a href="/disclosure/">Disclosure</a></p>
       <p>PassCosmo is not affiliated with PSI, Milady, or any state licensing board.</p>
     </div>
   </footer>

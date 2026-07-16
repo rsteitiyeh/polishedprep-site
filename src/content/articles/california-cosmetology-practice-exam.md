@@ -111,6 +111,6 @@ You forfeit your exam fee and can't test that day. PSI requires you to arrive at
 
 Sources checked at the time of writing: the California Board of Barbering and Cosmetology's applicant and examination pages ([barbercosmo.ca.gov](https://www.barbercosmo.ca.gov/applicants/national.shtml)) and PSI's published California cosmetology theory content outline.
 
-Written by the PassCosmo team (Trilot). Updated July 14, 2026.
+Written by the PassCosmo team. Updated July 14, 2026.
 
 <!-- Humanizer tell audit: draft leaned on "delve/navigate" style openers in H2 intros (cut), used a rule of three in the study section (broken up), and had a generic "good luck on your exam" closer (replaced with the FAQ + source line). Final pass rechecked for em dashes and en dashes; none present. -->

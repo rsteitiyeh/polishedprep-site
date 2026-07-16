@@ -2,14 +2,20 @@
   "SITE": "https://passcosmo.com",
   "BRAND": "PassCosmo",
   "niche": "04-cosmetology",
-  "stealth": true,
+  "stealth": false,
   "toolArchetype": "quiz",
-  "mailerlite": { "formAction": "https://assets.mailerlite.com/jsonp/PLACEHOLDER/forms/subscribe" },
-  "lemonsqueezy": { "checkoutUrl": "https://PLACEHOLDER.lemonsqueezy.com/checkout" },
+  "mailerlite": {
+    "groupId": "192830515039962260"
+  },
   "cfBeaconToken": "",
-  "magnet": { "file": "/downloads/state-board-checklist.pdf", "doneMessage": "You're in - the State Board Exam Day Checklist is downloading now." },
-  "author": { "name": "the PassCosmo team (Trilot)", "bio": "PassCosmo is published by the Trilot team. We build free, fact-checked guides, tools, and study resources, verified against the primary sources they cover. More at https://trilot.com." },
-  "legalEntity": "Trilot LLC",
+  "magnet": {
+    "file": "/downloads/state-board-checklist.pdf",
+    "doneMessage": "You're in - the State Board Exam Day Checklist is downloading now."
+  },
+  "author": {
+    "name": "PassCosmo",
+    "bio": "PassCosmo publishes free cosmetology state board practice tests and guides, weighted the way state written exams actually weight their content."
+  },
   "comingSoon": {
     "promise": "Pass your cosmetology state board the first time. Free practice questions, chapter-weighted study guide, and state-specific checklists - coming soon.",
     "captureLabel": "Send me the free practice test"
@@ -21,5 +27,8 @@
     "accent2": "#44684E",
     "headingFont": "Fraunces, Georgia, serif",
     "bodyFont": "Jost, system-ui, -apple-system, \"Segoe UI\", sans-serif"
+  },
+  "ga4": {
+    "measurementId": ""
   }
 }
