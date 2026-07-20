@@ -90,7 +90,7 @@ To protect the client's skin and clothing from chemical exposure and to keep the
 
 Run a free practice quiz through PassCosmo, broken out by the same content areas PSI actually tests, so you know your weak spots before exam day instead of during it.
 
-If you want a structured study path instead of scattered notes, our $19 California cosmetology study guide walks through every content area in the table above, in the same proportions the real exam uses, plus a full practice test with explained answers.
+If you want a structured study path instead of scattered notes, our free California cosmetology study guide walks through every content area in the table above, in the same proportions the real exam uses, plus a full practice test with explained answers.
 
 ## FAQ
 

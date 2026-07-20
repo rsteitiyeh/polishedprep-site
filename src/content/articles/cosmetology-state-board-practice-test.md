@@ -91,7 +91,7 @@ Because their purpose is protecting the client's skin and clothing from chemical
 
 Run a free practice quiz through PassCosmo, organized around the content areas nearly every state board tests, so you walk into your real exam already knowing your weak spots.
 
-For a full study path instead of scattered notes, our $19 cosmetology state board study guide covers every major content area, weighted the way most state exams actually weight them, plus a full timed practice test with explained answers.
+For a full study path instead of scattered notes, our free cosmetology state board study guide covers every major content area, weighted the way most state exams actually weight them, plus a full timed practice test with explained answers.
 
 ## FAQ
 
