@@ -66,5 +66,3 @@ Missing or improperly maintained infection control supplies, especially an EPA r
 In your state's current candidate information bulletin, published by your state board or its testing vendor. The National-Interstate Council of State Boards of Cosmetology maintains a repository of current bulletins by state.
 
 Sources checked at the time of writing: the National-Interstate Council of State Boards of Cosmetology's examination information and Candidate Information Bulletin repository ([nictesting.org](https://nictesting.org/examination-information/)) and the Texas Department of Licensing and Regulation's exam information page for barbers and cosmetologists ([tdlr.texas.gov](https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/examinations/)).
-
-Written by the PassCosmo team. Updated July 15, 2026.

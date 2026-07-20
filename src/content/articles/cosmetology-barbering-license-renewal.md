@@ -67,5 +67,3 @@ In every state we checked, yes. Texas and Georgia use their own state licensing 
 No. Renewal fees are per license type, so a cosmetologist, barber, esthetician, manicurist, and instructor license each renew and get billed separately, even if the same person holds more than one.
 
 Sources checked at the time of writing: the Texas Department of Licensing and Regulation's continuing education and exam pages ([tdlr.texas.gov](https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/continuing-education.htm)), the Georgia Secretary of State's cosmetology and barbers licensing division ([sos.ga.gov](https://sos.ga.gov/georgia-state-board-cosmetology-and-barbers)), and the Louisiana State Board of Cosmetology's licensing FAQ ([lsbc.louisiana.gov](http://www.lsbc.louisiana.gov/faq_ind_license_info.aspx)).
-
-Written by the PassCosmo team. Updated July 15, 2026.

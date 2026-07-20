@@ -72,5 +72,3 @@ No. Studying proportional to each domain's exam weight, roughly 30/40/15/15 acro
 Infection control, inside the scientific concepts domain. It's the most heavily tested sub-topic within the largest scored category and shows up again inside hair, skin, and nail service questions as a crossover requirement.
 
 Sources checked at the time of writing: the National-Interstate Council of State Boards of Cosmetology's National Cosmetology Theory Examination Candidate Information Bulletin, as published by the Arkansas Department of Health ([healthy.arkansas.gov](https://healthy.arkansas.gov/wp-content/uploads/Written_CIB.pdf)), and NIC's examination information page ([nictesting.org](https://nictesting.org/examination-information/)).
-
-Written by the PassCosmo team. Updated July 15, 2026.

@@ -68,5 +68,3 @@ Through the GOALS portal at goals.sos.ga.gov, using the account tied to your ori
 No. Nail technician, cosmetologist, esthetician, hair designer, and barber licenses each carry their own fee and renewal deadline, even when the same person holds more than one license type.
 
 Sources checked at the time of writing: the Georgia Secretary of State's how-to guide for nail technician licensing and renewal ([sos.ga.gov](https://sos.ga.gov/how-to-guide/how-guide-nail-technician-nail-tech-instructor)), and CosmoCredits' published fee and continuing education breakdown for the Georgia nail technician renewal cycle ([cosmocredits.com](https://cosmocredits.com/georgia/nail-technician-license-renewal/)).
-
-Written by the PassCosmo team. Updated July 15, 2026.

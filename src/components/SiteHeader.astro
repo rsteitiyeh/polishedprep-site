@@ -1,0 +1,28 @@
+---
+/**
+ * Shared site header for non-homepage pages (articles, /guides/).
+ * Mirrors the homepage .pp-nav markup/classes from Landing.astro so styling
+ * stays consistent even though this component ships its own scoped CSS
+ * (these pages don't render Landing.astro, so Landing's <style> never loads).
+ */
+---
+<header class="pp-nav">
+  <a class="brand" href="/">Polished<b>Prep</b></a>
+  <nav aria-label="Main navigation">
+    <a href="/#quiz">Practice Tests</a><a href="/#guide">Study Guide</a><a href="/guides/">Guides</a><a href="/#states">By State</a><a href="/#faq">FAQ</a>
+  </nav>
+  <a class="btn sm" href="/#hero-form">Free Practice Test</a>
+</header>
+
+<style is:global>
+  .pp-nav{position:sticky;top:0;z-index:50;background:rgba(251,247,244,.86);backdrop-filter:blur(14px);border-bottom:1px solid rgba(22,18,22,.08);display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px clamp(20px,5vw,48px);max-width:1200px;margin:0 auto;flex-wrap:wrap}
+  .brand{font-size:22px;font-weight:600;color:var(--ink,#161216)}.brand b{font-weight:400;font-style:italic;color:var(--rose,#8F3D4C)}
+  .pp-nav nav{display:flex;gap:clamp(16px,2.6vw,34px);flex-wrap:wrap}
+  .pp-nav nav a{font-size:14.5px;font-weight:500;color:var(--ink,#161216)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;border:none;border-radius:999px;padding:15px 28px;background:var(--rose,#8F3D4C);color:var(--bg,#FBF7F4);font-size:15px;font-weight:500;letter-spacing:.03em;cursor:pointer;transition:background .18s ease,transform .18s ease,box-shadow .18s ease;text-decoration:none}
+  .btn:hover{background:var(--rose-dk,#772F3F);transform:translateY(-2px);box-shadow:0 12px 28px rgba(143,61,76,.28)}
+  .btn.sm{padding:9px 18px;font-size:13.5px}
+  body{margin:0;background:var(--bg,#FBF7F4);color:var(--ink,#161216);font-family:Jost,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--rose,#8F3D4C)}
+  @media(max-width:850px){.pp-nav nav{display:none}}
+</style>

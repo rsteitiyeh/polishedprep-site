@@ -1,5 +1,7 @@
 ---
 import Base from './Base.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 import site from '../../site.config.json';
 import { extractFaq } from '../lib/faq.mjs';
 
@@ -40,7 +42,7 @@ const fmt = (d) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long
 ---
 <Base title={`${title} | ${site.BRAND}`} description={description} ogType="article">
   <script type="application/ld+json" set:html={jsonld} slot="head" />
-  <slot name="site-header" />
+  <slot name="site-header"><SiteHeader /></slot>
   <main class="article-wrap">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="/">Home</a> › <a href="/guides/">Guides</a> › <span>{title}</span>
@@ -77,7 +79,7 @@ const fmt = (d) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long
 </aside>
 </article>
   </main>
-  <slot name="site-footer" />
+  <slot name="site-footer"><SiteFooter /></slot>
 </Base>
 
 <style is:global>

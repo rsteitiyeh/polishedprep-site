@@ -111,7 +111,4 @@ Most states set the passing score between 70 and 75 percent correct on the score
 Yes, in every state we checked. There's no cap on retakes, but each attempt requires a new application and a new exam fee, so a well prepared first attempt saves both time and money.
 
 Sources checked at the time of writing: the National-Interstate Council of State Boards of Cosmetology's exam information pages ([nictesting.org](https://nictesting.org/examination-information/)) and the U.S. Bureau of Labor Statistics' May 2024 Occupational Employment and Wage Statistics for hairdressers, hairstylists, and cosmetologists ([bls.gov](https://www.bls.gov/oes/current/oes395012.htm)).
-
-Written by the PassCosmo team. Updated July 14, 2026.
-
 <!-- Humanizer tell audit: draft over-relied on "whether X or Y" phrasing in the state comparison section (cut to direct statements), had a bolded mini-header list in the study plan section (converted to prose), and closed with a generic motivational line (replaced with FAQ + sources). Final pass rechecked for em dashes and en dashes; none present. -->
