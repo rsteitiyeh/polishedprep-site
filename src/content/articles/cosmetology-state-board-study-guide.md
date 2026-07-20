@@ -1,6 +1,6 @@
 ---
 title: "Study Guide for the Cosmetology State Board Exam: Section by Section"
-description: ""
+description: "The most efficient cosmetology state board study guide follows the exam's own content weighting rather than splitting time evenly: study hair care and"
 keyword: "cosmetology state board study guide"
 publishDate: 2026-07-17
 ---

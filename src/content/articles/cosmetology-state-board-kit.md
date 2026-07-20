@@ -1,6 +1,6 @@
 ---
 title: "Cosmetology State Board Kit: What's Inside and the Full List"
-description: ""
+description: "A cosmetology state board kit is the collection of implements, supplies, and disinfection materials you bring to a practical licensing exam so you can"
 keyword: "cosmetology state board kit"
 publishDate: 2026-07-17
 ---

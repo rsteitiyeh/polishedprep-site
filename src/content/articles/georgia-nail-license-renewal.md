@@ -1,6 +1,6 @@
 ---
 title: "Georgia Nail License Renewal: Dates, Fees, and the GOALS Portal"
-description: ""
+description: "Georgia nail technician license renewal is due by August 31 of odd-numbered years, handled entirely online through the state's GOALS licensing portal, and"
 keyword: "georgia nail license renewal"
 publishDate: 2026-07-20
 ---
