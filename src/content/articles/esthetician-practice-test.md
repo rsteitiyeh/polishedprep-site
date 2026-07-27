@@ -1,6 +1,6 @@
 ---
 title: "Esthetician Practice Test: 8 Sample Questions With Answers"
-description: ""
+description: "NIC exam scoring favors science. Scientific Concepts counts for 55 percent, ahead of practical skin care services at 45."
 keyword: "esthetician practice test"
 publishDate: 2026-07-24
 ---

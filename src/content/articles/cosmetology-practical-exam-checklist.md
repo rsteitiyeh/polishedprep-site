@@ -1,6 +1,6 @@
 ---
 title: "Cosmetology Practical Exam Checklist: What to Bring"
-description: ""
+description: "See what must be labeled in your kit and what gets you turned away at check-in. Sanitation is graded as its own category."
 keyword: "cosmetology practical exam checklist"
 publishDate: 2026-07-26
 ---

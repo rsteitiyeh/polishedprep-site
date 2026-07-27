@@ -1,6 +1,6 @@
 ---
 title: "Louisiana Cosmetology License Renewal Online: A Walk-Through"
-description: ""
+description: "Louisiana renews cosmetology licenses yearly for $35 via PayStar, with no continuing education hours required."
 keyword: "louisiana cosmetology license renewal online"
 publishDate: 2026-07-22
 ---

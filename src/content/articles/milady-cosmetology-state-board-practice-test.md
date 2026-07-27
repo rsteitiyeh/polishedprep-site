@@ -1,6 +1,6 @@
 ---
 title: "Milady Cosmetology State Board Practice Test Guide"
-description: ""
+description: "Milady publishes cosmetology textbooks, not exams. PSI or NIC write the real test, and eight original questions are inside."
 keyword: "milady cosmetology state board practice test"
 publishDate: 2026-07-26
 ---
