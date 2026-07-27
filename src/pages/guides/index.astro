@@ -9,11 +9,10 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
   .sort((a, b) => +b.data.publishDate - +a.data.publishDate);
 const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
-<Base title={`Articles`} description={`All articles from ${site.BRAND}.`}>
+<Base title="Cosmetology Exam Study Guides and Articles | PassCosmo" description="Every free cosmetology state board guide on PassCosmo, weighted to match the Milady chapters and rules the PSI written exam draws from.">
   <SiteHeader />
   
   <main class="guides">
-<a href="/#quiz" class="ad ad-filled house" data-house-promo="cosmo-practice" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:min(970px,calc(100% - 32px));margin:27px auto;padding:14px 22px;border-radius:8px;background:linear-gradient(135deg,#8F3D4C 0%,#6E2F3B 100%);color:#FFFFFF;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.12);flex-wrap:wrap"><span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span style="font:700 9px ui-monospace,monospace;letter-spacing:1.6px;text-transform:uppercase;opacity:.72;color:#FFFFFF">From PassCosmo</span><span style="font:700 15px Jost,system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;color:#FFFFFF">Try the free practice test</span><span style="font:400 12.5px Jost,system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;opacity:.88;color:#FFFFFF">Run all 24 questions or pick a category, no login or timer required.</span></span><span style="flex:0 0 auto;padding:10px 18px;border-radius:5px;background:#FBF7F4;color:#161216;font:700 13px Jost,system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;white-space:nowrap">Start the test &rsaquo;</span></a>
     <h1>Articles</h1>
     <ul>
       {articles.map((a) => (
