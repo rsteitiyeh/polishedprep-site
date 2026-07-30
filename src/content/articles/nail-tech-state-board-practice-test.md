@@ -1,5 +1,5 @@
 ---
-title: "Nail Technician State Board Practice Test: 6 Sample Questions"
+title: "Nail Tech State Board Practice Test: 6 Sample Questions"
 description: "The NIC nail exam has 110 items in 90 minutes, split 40 percent science and 60 percent procedures, plus six sample questions."
 keyword: "nail tech state board practice test"
 publishDate: 2026-07-22

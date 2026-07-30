@@ -1,5 +1,5 @@
 ---
-title: "Cosmetology and Barbering License Renewal: How It Works by State"
+title: "Cosmetology and Barbering License Renewal by State"
 description: "Cosmetology and barbering license renewal is handled entirely by your state board, not a national body, so the cycle length, fee, and continuing education"
 keyword: "cosmetology barbering license renewal"
 publishDate: 2026-07-17

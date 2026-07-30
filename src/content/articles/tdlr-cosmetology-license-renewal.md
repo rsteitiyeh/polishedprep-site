@@ -1,5 +1,5 @@
 ---
-title: "TDLR Cosmetology License Renewal: Fees, CE Hours, and How to Renew"
+title: "TDLR Cosmetology License Renewal: Fees and CE Hours"
 description: "Texas cosmetology licenses renew every two years for $50 on time, now requiring CE hours since September 2025."
 keyword: "tdlr cosmetology license renewal"
 publishDate: 2026-07-22
