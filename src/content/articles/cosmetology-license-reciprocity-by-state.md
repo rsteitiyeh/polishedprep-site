@@ -1,6 +1,6 @@
 ---
 title: "Cosmetology License Reciprocity by State Explained"
-description: ""
+description: "Cosmetology license reciprocity has no national system; each state sets its own rules, often requiring a law exam or fee, and Hawaii grants none at all."
 keyword: "cosmetology license reciprocity by state"
 publishDate: 2026-07-29
 ---

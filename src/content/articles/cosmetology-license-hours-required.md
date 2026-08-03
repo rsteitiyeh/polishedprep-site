@@ -1,6 +1,6 @@
 ---
 title: "How Many Hours You Need for a Cosmetology License"
-description: ""
+description: "Cosmetology license hours range from 1,000 in states like Texas and California to 1,600 in states like Illinois and Georgia, with no national standard."
 keyword: "cosmetology license hours required"
 publishDate: 2026-07-29
 ---

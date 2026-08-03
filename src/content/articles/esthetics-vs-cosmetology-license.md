@@ -1,6 +1,6 @@
 ---
 title: "Esthetics vs Cosmetology License: Key Differences"
-description: ""
+description: "An esthetics license covers only skin care and hair removal, while a cosmetology license adds hair and nails; Texas requires 750 hours versus 1,000."
 keyword: "esthetics vs cosmetology license"
 publishDate: 2026-07-27
 ---
