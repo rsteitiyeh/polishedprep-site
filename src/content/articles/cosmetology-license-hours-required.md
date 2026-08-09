@@ -22,7 +22,7 @@ The hour count you need depends entirely on where you're licensing, not on any f
 | Virginia | 1,000 | Cut from 1,500, effective December 1, 2025 for new applicants | [Virginia DPOR](https://www.dpor.virginia.gov/CosmetologyCurriculum) |
 | Florida | 1,200 | No recent change found | [Florida DBPR](https://www2.myfloridalicense.com/cosmetology/faqs/) |
 | Illinois | 1,500 | Apprenticeship path exists but requires more total hours, not fewer | [IDFPR](https://idfpr.illinois.gov/profs/cosmo.html) |
-| Pennsylvania | 1,250 (school) | Apprenticeship path requires 2,000 hours, more than the school track | [Pennsylvania DOS](https://www.pa.gov/agencies/dos/programs/professional-licensing/boards-commissions/cosmetology/) |
+| Pennsylvania | 1,250 (school) | Apprenticeship path requires 2,000 hours, more than the school track | [Pennsylvania DOS](https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/cosmetology) |
 | Ohio | 1,500 (1,000 if already a licensed barber) | Rule updated by HB 158, effective October 24, 2024 | [Ohio Revised Code §4713.28](https://codes.ohio.gov/ohio-revised-code/section-4713.28) |
 | Georgia | 1,500 | 250 theory + 1,250 practical; apprenticeship path requires 3,000 hours | Georgia Admin. Code Ch. 240-15 |
 | Arizona | 1,500 | A proposed cut to 1,000 hours did not pass; 1,500 remains current | [Arizona Board of Barbering and Cosmetology](https://bcb.az.gov/resources/faq) |
