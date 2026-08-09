@@ -38,7 +38,7 @@ Scoring is pass or fail. You'll see your result on screen at the test center rig
 
 ## What do you need to do before you can sit for the exam?
 
-You need to complete 1,000 hours of training at a BBC approved cosmetology school (or 3,200 apprenticeship hours) and be at least 17 years old with a 10th grade education or equivalent, according to the [California Board of Barbering and Cosmetology's applicant information](https://www.barbercosmo.ca.gov/applicants/information.shtml). Your school issues a Proof of Training document once you finish, and that's what goes with your examination application.
+You need to complete 1,000 hours of training at a BBC approved cosmetology school (or 3,200 apprenticeship hours) and be at least 17 years old with a 10th grade education or equivalent, according to the [California Board of Barbering and Cosmetology's applicant information](https://www.barbercosmo.ca.gov/applicants/). Your school issues a Proof of Training document once you finish, and that's what goes with your examination application.
 
 That 1,000 hour figure is worth pausing on. California cut its cosmetology training requirement from 1,600 hours to 1,000 hours effective January 1, 2022, under Senate Bill 803, the same law that eliminated the hands on practical exam. If you trained somewhere with a higher hour requirement, or you're comparing notes with a friend licensed a few years ago who did a hands on test, that's why your path looks different.
 
