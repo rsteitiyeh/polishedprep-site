@@ -71,5 +71,3 @@ Yes, if you hold both licenses. TDLR allows CE completed under one license to sa
 
 **How often does a TDLR cosmetology license need to be renewed?**
 Every two years. TDLR mails and emails renewal notices ahead of the expiration date, which is why keeping your contact information current with the agency matters.
-
-<!-- QA tell-audit: checked for em/en dashes (none used, replaced with commas/colons), banned AI vocabulary (none), rule-of-three overuse (varied list lengths), signposting phrases (none), vague authority claims (all sourced to TDLR primary pages with dates). Sentence rhythm varied short/long. Operator-specific detail included (CE rule change date, fee tiers, exam vendor name). -->

@@ -58,5 +58,3 @@ No. They're separate license categories with separate written and practical exam
 
 **Does every state split esthetics and cosmetology into separate licenses?**
 Most do, but the exact structure and hour requirements vary by state. Check your specific state board's licensing page before assuming Texas or California's numbers apply where you live.
-
-<!-- QA tell-audit: no em/en dashes, no banned vocabulary, sourced state data linked at the claim (TDLR, California BBC), clear operator framing (which license should I get), original comparison table computed from two states' statute breakdowns not copied verbatim. -->

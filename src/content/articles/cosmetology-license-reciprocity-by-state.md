@@ -72,5 +72,3 @@ It depends on the destination state. Some accept your original exam pass with ju
 
 **Can a military spouse get a faster cosmetology license when relocating?**
 In many states, yes. Several states have passed expedited or temporary licensure laws for military spouses, and the federal Military Spouse Licensing Relief Act (2023) supports portability for state occupational licenses, cosmetology included, under specific conditions.
-
-<!-- QA tell-audit: no em/en dashes, no banned vocabulary, sourced state-by-state claims linked at the point made, honest hedges where sources were older or state-specific rules could have shifted, avoided asserting a formal "NIC reciprocity program" that isn't publicly documented. -->

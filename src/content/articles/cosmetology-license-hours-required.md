@@ -69,5 +69,3 @@ Usually not. In most states we checked, apprenticeship paths require equal or mo
 
 **Do high school cosmetology programs count toward my state's hour requirement?**
 In several states, yes, hours completed in an approved high school cosmetology-arts program can count toward the total. Confirm with your state board exactly how many hours qualify and whether the program needs prior state approval.
-
-<!-- QA tell-audit: no em/en dashes, no banned vocabulary, sources cited at each state's figure, honest caveat on stale 50-state aggregator data, explicit debunk of a circulating false claim (Oklahoma) with a dated primary source, apprenticeship-hours myth addressed with evidence rather than assumption. -->

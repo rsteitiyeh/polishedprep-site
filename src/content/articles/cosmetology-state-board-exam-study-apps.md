@@ -68,5 +68,3 @@ Almost entirely no. Every app we checked focuses on written-exam content. For th
 Most states use a 100 to 110-question format with roughly 10 unscored pilot questions mixed in and no way to identify which ones they are, so treat every question with equal focus.
 
 Sources checked at the time of writing: NIC Testing's exam program overview ([nictesting.org](https://nictesting.org/)), PSI's Barber and Cosmetology Testing program page ([psiexams.com](https://www.psiexams.com/licensure/barber-cosmetology/)), and App Store/Google Play listings for the apps named above, checked July 2026.
-
-<!-- QA tell-audit: checked for em/en dashes (none, replaced with commas/colons), banned AI vocabulary (none), rule-of-three overuse (varied list and table lengths), signposting phrases (none), vague authority ("industry reports" avoided, sourced to NIC/PSI/app listings with a checked date). Sentence rhythm varied short/long. Operator-specific detail: named real apps with dated first-hand app-store check, explicit caveat that publishers aren't affiliated with any exam vendor. -->

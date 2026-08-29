@@ -114,5 +114,3 @@ No practice test from any publisher can guarantee a pass, since the actual exam 
 
 **Are Milady and PSI or NIC the same company?**
 No. They're separate organizations. Milady publishes study material; PSI and NIC administer exams for state boards. Milady's own materials state clearly that PSI and NIC were not involved in producing Milady's products.
-
-<!-- QA tell-audit: no em/en dashes, no banned vocabulary, TM caution honored (Milady named as Cengage trademark, non-affiliation stated up top and in FAQ), original sample questions only, sourced claims linked at the point made (milady.com/about, PSI bulletins). -->

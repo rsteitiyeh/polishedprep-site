@@ -61,5 +61,3 @@ It's tested directly. Most state practical exams include a required blood exposu
 
 **What are the most common real-world sanitation violations at salons?**
 According to TDLR's published violation data, the two most common sanitation-specific issues are not preparing fresh disinfectant solution daily and not storing clean implements separately from soiled ones.
-
-<!-- QA tell-audit: no em/en dashes, no banned vocabulary, YMYL guard respected (no medical/clinical advice, only cited regulatory sanitation rules), all specific numbers sourced to TDLR primary PDF/pages, PSI bulletin percentage sourced and dated. -->

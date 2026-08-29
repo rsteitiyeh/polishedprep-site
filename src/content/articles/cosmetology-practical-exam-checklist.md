@@ -98,5 +98,3 @@ Nearly all current state board practical exams are performed entirely on a manne
 
 **How long is the cosmetology practical exam?**
 It varies by state, but Texas's current PSI-administered practical runs 3 hours 31 minutes. Check your own state's candidate bulletin for the exact timing, since it's one of the details that differs most between states.
-
-<!-- QA tell-audit: no em/en dashes, no banned vocabulary, varied sentence lengths, no signposting, sources named and linked at claims (PSI bulletin 703), original checklist tables not copy-pasted prose, honest hedge on school-ID acceptance since it varies by state. -->
